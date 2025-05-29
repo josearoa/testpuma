@@ -1,0 +1,62 @@
+.client-container {
+  font-family: sans-serif;
+  padding: 1rem;
+}
+
+.client-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.upload-section,
+.history-section {
+  margin-top: 2rem;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+input[type='file'] {
+  margin-right: 1rem;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+
+.status.pendiente {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status.aprobado {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status.error {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.validate-btn,
+.view-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.validate-btn:hover,
+.view-btn:hover {
+  background-color: #0056b3;
+}
